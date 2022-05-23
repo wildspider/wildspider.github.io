@@ -1,0 +1,34 @@
+remote-theme: chrisrhymes/bulma-clean-theme
+title: wildspider
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  wildspider.github.io
+url: "https://wildspider.github.io"
+github_username:  wildspider
+
+# Build settings
+markdown: kramdown
+remote_theme: chrisrhymes/bulma-clean-theme
+plugins:
+  - jekyll-sitemap
+  - github-pages
+  - jekyll-feed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "wildspider"
+      layout: post
+      #hero_image: /path/to/hero-image.jpg
+      hero_darken: true
+      menubar_toc: true
