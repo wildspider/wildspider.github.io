@@ -3,4 +3,4 @@ title: Home
 layout: page
 ---
 
-Check tutorials [Bad esp32 WiFi : Enabling forbidden 802.11 frames]({% post_url 2021-07-01-esp32-bad-wifi %})
+Check tutorials [Bypassing frame type restrictions in the ESP32's WiFi library to allow deauthentication frames among others]({% post_url 2021-07-01-esp32-bad-wifi %})
